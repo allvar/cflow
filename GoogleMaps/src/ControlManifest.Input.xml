@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="Langate.CFlow" constructor="GoogleMaps" version="0.1.1" display-name-key="Show Google Maps" description-key="Show Google Maps with possibility for routing" control-type="virtual">
+    <external-service-usage enabled="false">
+    </external-service-usage>
+    <property name="addressLine1" display-name-key="Address Line 1" description-key="Address Line 1" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="addressLine2" display-name-key="Address Line 2" description-key="Address Line 2" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="addressLine3" display-name-key="Address Line 3" description-key="Address Line 3" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="position" display-name-key="Position" description-key="Position in Google Maps format" of-type="SingleLine.Text" usage="bound" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+      <platform-library name="React" version="16.8.6" />
+      <platform-library name="Fluent" version="8.29.0" />
+      <css path="css/GoogleMaps.css" order="1" />
+    </resources>
+    <feature-usage>
+      <uses-feature name="Utility" required="true" />
+      <uses-feature name="WebAPI" required="true" />
+    </feature-usage>
+  </control>
+</manifest>

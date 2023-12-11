@@ -1,0 +1,9 @@
+<DVDT>
+  <WebResources>
+    <Resource Id="ba2c583d-8e74-ed11-81ab-0022489a2a47" dvDisplayName="order.js" dvFilePath="coapp_/scripts/order.js" localFileName="order.js" localFilePath="//FormScripts/WebResources/js/order.js"></Resource>
+    <Resource Id="7fecfd39-8f74-ed11-81ab-0022489a2a47" dvDisplayName="RichTextConfig.js" dvFilePath="coapp_/scripts/richTextConfig.js" localFileName="richTextConfig.js" localFilePath="//FormScripts/WebResources/js/richTextConfig.js"></Resource>
+    <Resource Id="ba2c583d-8e74-ed11-81ab-0022489a2a47" dvDisplayName="order.js" dvFilePath="coapp_/scripts/order.js" localFileName="order.js" localFilePath="/Users/allan/source/coapp_core/FormScripts/WebResources/js/order.js"></Resource>
+    <Resource Id="1750d69e-fb9a-ed11-aad1-000d3adf4843" dvDisplayName="order_ribbon.js" dvFilePath="coapp_/scripts/order_ribbon.js" localFileName="order_ribbon.js" localFilePath="/Users/allan/source/coapp_core/FormScripts/WebResources/js/order_ribbon.js"></Resource>
+  </WebResources>
+  <Settings></Settings>
+</DVDT>
